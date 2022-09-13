@@ -1,0 +1,44 @@
+button {
+    background-color: rgb(16, 172, 238);
+}
+
+.wrap-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-text {
+    color: white;
+    background-color: rgb(16, 172, 238);
+    padding: 10px 0px 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.batton-cancel {
+    color: red;
+    background-color: rgb(118, 231, 118);
+    margin-bottom: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.batton-cancel:hover {
+    background-color: rgb(208, 237, 22);
+}
+
+.batton-form {
+    color: #3700ff;
+    background-color: rgb(118, 231, 118);
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.batton-form:hover {
+    background-color: rgb(208, 237, 22);
+}

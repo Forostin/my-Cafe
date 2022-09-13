@@ -1,0 +1,156 @@
+.mat-typographi {
+    background-color: rgb(104, 226, 185);
+    width: 100%;
+    height: 340px;
+    background-image: ('https://cdn.pixabay.com/photo/2017/07/31/11/07/kitchen-2557285__340.jpg');
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    min-height: 540px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/31/11/07/kitchen-2557285__340.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.img-cook {
+    width: 8em;
+    height: 8em;
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/27/08/48/chef-1773672__340.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+p.headText {
+    color: white;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-size: 3em;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.head-text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.headText-H2 {
+    color: white;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+.headText-H3 {
+    color: rgb(75, 240, 50);
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 25px;
+    line-height: 1.1;
+}
+
+p {
+    margin: 15px auto;
+}
+
+.menu-button:hover {
+    background-color: rgb(118, 231, 118)
+}
+
+.menu-button {
+    background-color: rgb(16, 172, 238);
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 30px 0px;
+    font-size: 2em;
+}
+
+.wrap-menu p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 35px;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+.wrap-menu {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/02/13/38/vegetables-3193196_960_720.jpg');
+}
+
+.wrap-menu-button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+}
+
+.active a {
+    font-size: 2em;
+    color: rgb(86, 241, 14);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+}
+
+.img-basket {
+    filter: invert(1);
+    width: 6em;
+    height: 6em;
+}
+
+.img-basket:hover {
+    background-color: yellow;
+}
+
+.wrap-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-li {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.amount {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+
+}

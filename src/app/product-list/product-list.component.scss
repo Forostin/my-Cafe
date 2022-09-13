@@ -1,0 +1,118 @@
+.example-card {
+    max-width: 100%;
+}
+
+button {
+    background-color: rgb(16, 172, 238);
+}
+
+.example-header-image {
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/27/08/48/chef-1773672__340.png');
+    background-size: cover;
+}
+
+.mat-button:hover {
+    background-color: rgb(118, 231, 118)
+}
+
+.example-card {
+    background-color: rgb(48, 73, 233);
+    margin-bottom: 5px;
+}
+
+mat-card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+mat-card-subtitle {
+    font-weight: bold;
+}
+
+mat-form-field {
+    margin-right: 12px;
+}
+
+.mat-card {
+    transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    position: relative;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.mat-simple-snack-bar-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mat-simple-snackbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+    opacity: 1;
+    background-color: coral;
+}
+
+.amount {
+    background: white;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+}
+
+.wrap-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-text {
+    color: white;
+    background-color: rgb(16, 172, 238);
+    padding: 10px 0px 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mat-card-header-text {
+    margin: 0px 16px;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.batton-cancel {
+    color: red;
+    background-color: rgb(118, 231, 118);
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.batton-cancel:hover {
+    background-color: rgb(208, 237, 22);
+}
+
+p {
+    line-height: 1.1;
+}
+
+.batton-form {
+    color: #3700ff;
+    background-color: rgb(118, 231, 118);
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.batton-form:hover {
+    background-color: rgb(208, 237, 22);
+}

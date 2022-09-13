@@ -1,0 +1,42 @@
+.menu-button:hover {
+    background-color: rgb(118, 231, 118)
+}
+
+.menu-button {
+    background-color: rgb(16, 172, 238);
+    width: 200px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 30px 0px;
+    font-size: 30px;
+}
+
+.wrap-menu p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 35px;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 25px;
+    text-align: center;
+    margin: 20px;
+    line-height: 1.1;
+}
+
+.wrap-menu {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/02/13/38/vegetables-3193196_960_720.jpg');
+}
+
+.wrap-menu-button {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+}

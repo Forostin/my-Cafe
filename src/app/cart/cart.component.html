@@ -1,0 +1,25 @@
+<div class="wrap-text">
+    <p>Сделайте свой выбор.</p>
+    <button class="batton-cancel" (click)="productServiceService.cancelOrder(product)">Отменить весь заказ ?</button>
+    <button class="batton-form" [routerLink]="['/form']">Заполнить форму заказа</button>
+</div>
+<div class="product-card" *ngFor="let product of products">
+    <div class="product-card"></div>
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{ product.title}}</mat-card-title>
+        <!-- <mat-card-subtitle>{{product.price}} грн.</mat-card-subtitle> -->
+    </mat-card-header>
+
+    <img mat-card-image src="{{product.photo}}">
+    <mat-card-content>
+        <p>
+            {{product.description}}
+        </p>
+    </mat-card-content>
+    <!-- <mat-card-actions class="wrap-button"> -->
+    <!-- <button mat-button (click)="productServiceService.cancel(product)">ОТМЕНА</button> -->
+    <!-- <div class="amount"></div>
+        <button mat-button (click)="productServiceService.addToCard(product)">ЗАКАЗАТЬ</button> -->
+    <!-- </mat-card-actions> -->
+</div>

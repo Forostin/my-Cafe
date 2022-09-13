@@ -1,0 +1,33 @@
+.body-page-form {
+    background-color: rgb(15, 5, 49);
+}
+
+.wrap-form {
+    width: 70%;
+    min-height: 500px;
+    background-color: aqua;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit {
+    color: #4c05ff;
+    padding-bottom: 15px;
+    margin: 20px;
+}
+
+.submit p {
+    font-size: 40px;
+    text-align: center;
+}

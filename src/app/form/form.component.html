@@ -1,0 +1,49 @@
+<div class="body-page-form">
+    <div class="wrap-form">
+        <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+            <!-- <form  (ngSubmit)="onSubmit(form)" #form="ngForm"> -->
+            <div class="submit" *ngIf="isSubmited">
+                <p>Заявка отправлена</p>
+                <pre>
+                          <!-- {{formData | json}} -->
+                        </pre>
+            </div>
+            <div ngModelGroup="user" #user="ngModelGroup">
+                <div class="form-group" [ngClass]="{'has-error': email.invalid && email.touched }">
+                    <label>Email</label>
+                    <input type="text" class="form-control" ngModel name="email" required email #email="ngModel" />
+                    <p *ngIf="email.invalid && email.touched">Введите корректный email</p>
+                </div>
+
+                <h3 *ngIf="user.invalid && user.touched">Форма заполнена не верно</h3>
+            </div>
+
+            <div class="form-group">
+                <label>Имя</label>
+                <input type="text" [(ngModel)]="firstName" name="first">
+                <label>город</label>
+                <select class="form-control" [ngModel]="defoultCity" name="city" required>
+                    <option value="dn">Днепр</option>
+                    <option value="zp">Запорожье</option>
+                    <option value="km">Каменское</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>улица</label>
+                <input type="text" [ngModel]="street" name="street">
+                <label>дом</label>
+                <input type="text" [ngModel]="house" name="house">
+                <label>квартира</label>
+                <input type="text" [ngModel]="flat" name="flat">
+                <label>телефон</label>
+                <input type="text" [ngModel]="tel" name="tel" required>
+            </div>
+            <div class="radio" *ngFor="let ans of answers">
+                <label>
+                    <input type="radio" [value]="ans.type" [ngModel]="defoultAnswer" name="answer" required>{{ans.text}}
+                </label>
+            </div>
+            <button class="btn btn-success" type="submit" [disabled]="!form.valid">Отправить</button>
+        </form>
+    </div>
+</div>
